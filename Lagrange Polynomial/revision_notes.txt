@@ -2,3 +2,7 @@ The revision addresses the comments made by Prof. Sy during my presentation.
 
 1) The user can now choose to create a LaGrange_Polynomial object with the same data points, but with a selected range.
 2) The user can now call an error checking function. Although it has a bug that makes it stop calculating, it does go as far as to create a new LaGrange polynomial with the given y values missing and the derived y values as inputs
+
+Limitations: 
+1) Is unwealdy to use, requiring users to be programmers who will write code in order to use this program. Does not allow naive users to input values through csv or text inputs
+2) Error checking only goes half way before crashing. 
